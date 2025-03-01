@@ -16,10 +16,11 @@ Ensure you have the following installed before proceeding:
 
 ### 1. Install Required Dependencies  
 Run the following command to install Python dependencies:  
-```bash
-pip install -r requirements.txt
-
 note
 if you have any erorr you can visit 
 https://github.com/aldinokemal/go-whatsapp-web-multidevice?tab=readme-ov-file
 read instalation instrunction 
+```bash
+pip install -r requirements.txt
+
+

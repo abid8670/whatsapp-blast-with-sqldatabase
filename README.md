@@ -21,8 +21,9 @@ https://github.com/aldinokemal/go-whatsapp-web-multidevice?tab=readme-ov-file
 read instalation instrunction
 
 ```bash
- install docker desktop and run in cmd 
- 1 docker run --detach --publish=3000:3000 --name=whatsapp --restart=always --volume=$(docker volume create --name=whatsapp):/app/storages aldinokemal2104/go-whatsapp-web-multidevice --autoreply="Dont't reply this message please"
+ install docker desktop and run in cmd
+
+ docker run --detach --publish=3000:3000 --name=whatsapp --restart=always --volume=$(docker volume create --name=whatsapp):/app/storages aldinokemal2104/go-whatsapp-web-multidevice --autoreply="Dont't reply this message please"
 pip install -r requirements.txt
 
 
